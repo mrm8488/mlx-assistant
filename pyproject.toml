@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mlx-assistant"
+version = "0.1.0"
+description = "AI Assistan for Mac"
+authors = ["Manuel Romero <mrm8488@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlx = "^0.0.10"
+mlx-lm = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
